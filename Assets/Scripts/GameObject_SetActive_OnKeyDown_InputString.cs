@@ -9,8 +9,8 @@ public class GameObject_SetActive_OnKeyDown_InputString : MonoBehaviour
 
     private void Start()
     {
-        On.SetActive(true);
-        Off.SetActive(false);
+        On.SetActive(false);
+        Off.SetActive(true);
     }
 
     void Update()
